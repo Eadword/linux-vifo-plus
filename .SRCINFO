@@ -1,4 +1,4 @@
-pkgbase = linux-vfio
+gpkgbase = linux-vfio-plus
 	pkgdesc = Linux
 	pkgver = 5.7.11.arch1
 	pkgrel = 1
@@ -25,12 +25,12 @@ pkgbase = linux-vfio
 	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
 	validpgpkeys = A2FF3A36AAA56654109064AB19802F8B0D70FC30
 	sha256sums = SKIP
-	sha256sums = 6313ccad7f8e4d8ce09dd5bdb51b8dfa124d0034d7097ba47008380a14a84f09
+	sha256sums = 7630cfbf0ba40cdb105050282042eca509c59dd5ef0b815e1d7aba3a92176741
 	sha256sums = 551d2ec326df256256a9e30d336a074493435fe0dbca77fd18216f9e91c0dd00
 	sha256sums = ccb814e2c382a59b907ccb183836eda72f21214484e489b5f473beca97856704
 	sha256sums = 8cb21e0b3411327b627a9dd15b8eb773295a0d2782b1a41b2a8839d1b2f5778c
 
-pkgname = linux-vfio
+pkgname = linux-vfio-plus
 	pkgdesc = The Linux kernel and modules
 	depends = coreutils
 	depends = kmod
@@ -42,9 +42,9 @@ pkgname = linux-vfio
 	replaces = virtualbox-guest-modules-arch
 	replaces = wireguard-arch
 
-pkgname = linux-vfio-headers
+pkgname = linux-vfio-plus-headers
 	pkgdesc = Headers and scripts for building modules for the Linux kernel
 
-pkgname = linux-vfio-docs
+pkgname = linux-vfio-plus-docs
 	pkgdesc = Documentation for the Linux kernel
 
